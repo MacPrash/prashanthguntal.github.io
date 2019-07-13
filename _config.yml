@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Prashanth Guntal"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Prashanth Guntal"
+description              : "Data Science and Other Portfolios"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,11 +106,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Prashanth Guntal"
+  avatar           : "/images/UCD-OBrien-Centre-for-Science.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science and other programming Portfolios"
+  location         : "Dublin, Republic of Ireland"
   email            :
+  github           : "MacPrash"
+  linkedin         : "Prashanth Guntal"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -293,3 +296,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  #_pages
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
