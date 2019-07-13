@@ -3,9 +3,8 @@
 title: "PC Automation: Zero Percent User Interaction Automation"
 date: 2017-01-01
 tags: [PC Automation, Automation, Test Automation, QA, Security Automation, Restart Automation]
-header:
 excerpt: "PC Automation, No User Interaction, Test Automation"
-mathjax: "true" 
+mathjax: "true"
 ---
 
 ## Continuing the Console automation execution without user interaction after restart of machine using bat programming.
