@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Machine Learning"
-    url: /machine-learning/
   - title: "Automation"
     url: /automation/
 
