@@ -109,10 +109,10 @@ author:
   name             : "Prashanth Guntal"
   avatar           : "/images/UCD-OBrien-Centre-for-Science.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science and other programming Portfolios"
-  location         : "Dublin, Republic of Ireland"
+  location         : "Dublin, Ireland"
   email            :
   github           : "MacPrash"
-  linkedin         : "prashanth-guntal-91186192"
+  linkedin         : "prashanth-guntal"
 
   links:
     - label: "Email"
