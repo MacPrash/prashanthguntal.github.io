@@ -1,7 +1,7 @@
 ---
 title: "PC Automation: Zero Percent User Interaction Automation"
 date: 2017-01-01
-tags: [PC Automation, Automation, Test Automation, QA, Security Automation, Restart Automation]
+tags: [Automation,QA]
 header:
   image: "/images/PCAutomation.jpg"
 excerpt: "PC Automation, No User Interaction, Test Automation"
