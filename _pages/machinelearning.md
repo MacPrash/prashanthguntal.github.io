@@ -5,9 +5,6 @@ title: "Machine learning Post by Tags"
 author_profile: true
 header:
   image: "/images/UCD-Night.jpg"
-
-
-
 ---
 
 {% include base_path %}
