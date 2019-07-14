@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Prashanth Guntal"
 title_separator          : "-"
 name                     : "Prashanth Guntal"
-description              : "Data Science and Other Portfolios"
+description              : "Data Science, Machine Learning, Programming, Web and PC Automation and Other Portfolios"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Prashanth Guntal"
-  avatar           : "/images/UCD-OBrien-Centre-for-Science.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/myphoto.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science and other programming Portfolios"
   location         : "Dublin, Ireland"
   email            : "prashanth09071994@gmail.com"

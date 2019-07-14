@@ -3,7 +3,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/UCD-Night.jpg"
+  image: "https://www.instagram.com/p/BpSQjvei2lQ/"
 ---
 
 
@@ -15,5 +15,3 @@ While studying to obtain this specialist academic qualification, combined subseq
 
 
 I'm open to job opportunities, with my Curriculum Vitae available at [link](https://macprash.github.io/prashanthguntal.github.io/cv/).
-
-                

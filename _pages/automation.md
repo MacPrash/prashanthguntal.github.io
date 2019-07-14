@@ -4,7 +4,7 @@ permalink: /automation/
 title: "Automation"
 author_profile: true
 header:
-  image: "/images/UCD-Night.jpg"
+  image: "/images/https://www.instagram.com/p/BpSQjvei2lQ/"
 ---
 
 {% include base_path %}
