@@ -3,7 +3,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "https://www.instagram.com/p/BpSQjvei2lQ/"
+  image: "/images/PESIT.jpg"
 ---
 
 
