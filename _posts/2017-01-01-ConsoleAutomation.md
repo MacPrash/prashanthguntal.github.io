@@ -6,6 +6,7 @@ header:
   image: "/images/PCAutomation.jpg"
 excerpt: "PC Automation, No User Interaction, Test Automation"
 mathjax: "true"
+
 ---
 
 ## Continuing the Console automation execution without user interaction after restart of machine using bat programming.
