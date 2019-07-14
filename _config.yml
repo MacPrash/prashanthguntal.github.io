@@ -111,13 +111,13 @@ author:
   bio              : "Data Science and other programming Portfolios"
   location         : "Dublin, Ireland"
   email            :
-  github           : "MacPrash"
+  #github           : "MacPrash"
   linkedin         : "prashanth-guntal-91186192"
 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: prashanth09071994@gmail.com
+      url: "prashanth09071994@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
