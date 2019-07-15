@@ -81,8 +81,3 @@ Batch Code Block:
     echo Usage: nothing much
 
   ```  
-
-
-{% for tag in tags %}
-	<a href="https://meta.stackexchange.com/feeds/tag/automation"> {{ tag }} </a>
-{% endfor %}
