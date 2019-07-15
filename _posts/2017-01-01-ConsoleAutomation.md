@@ -84,5 +84,5 @@ Batch Code Block:
 
 
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+	<a href="https://meta.stackexchange.com/feeds/tag/automation"> {{ tag }} </a>
 {% endfor %}
