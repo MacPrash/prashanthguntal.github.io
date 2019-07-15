@@ -11,6 +11,7 @@ header:
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
+
   {% assign posts = group_items[forloop.index0] %}
-  <h1 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h1>
+  <h1 id="{{ tag | slugify }}" class="archive__subtitle">{{ "tag" }}</h1>
 {% endfor %}
