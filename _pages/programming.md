@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /programme/
-title: "Program"
+title: "Programs"
 author_profile: true
 header:
   image: "/images/Automation.jpg"
