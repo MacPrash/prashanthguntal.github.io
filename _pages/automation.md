@@ -13,7 +13,5 @@ header:
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  {% if tag == "Test Automation" %}
-    <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% endif %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
 {% endfor %}
