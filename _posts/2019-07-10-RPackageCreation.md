@@ -1,7 +1,7 @@
 ---
 title: "Program: How to create a R package"
 date: 2019-07-10
-tags: [R, Package, R Package, Package Creation]
+tags: [R, Package, R Package, Package Creation, Programming]
 header:
   image: "/images/PCAutomation.jpg"
 excerpt: "R Package"
