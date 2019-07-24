@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /datascience/
-title: "Programs"
+title: "DataScience Projects"
 author_profile: true
 header:
   image: "/images/Automation.jpg"
