@@ -97,6 +97,8 @@ Misclassification rate by K-Means is 12.3%, K-Medoids with Jaccard distance is 1
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture3.jpg" alt="Picture2">
 
-*Fig-2*
+
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture4.jpg" alt="Picture2">
+
+                          *Fig-2*
