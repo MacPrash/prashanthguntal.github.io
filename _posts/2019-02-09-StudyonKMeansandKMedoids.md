@@ -75,9 +75,9 @@ Adjusted Rand Index is a number between 0 and 1 and is used to compare agreement
 |                   | KD(Jaccard) | KD(Hamming) | KD(Dice) | KM(Euclidean) |
 |:------------------|:-----------:|------------:|:--------:|--------------:|
 | KD(Jaccard)       | 1           |             |          |               |
-| KD(Hamming)       | 0.91        | 1           |          |               |
-| KD(Dice)          | 1           | 0.91        | 1        |               |
-| KM(Euclidean)     | 0.91        | 0.90        | 0.91     | 1             |
+| KD(Hamming)       | 0.91        |  1          |          |               |
+| KD(Dice)          | 1           | 0.91        |  1       |               |
+| KM(Euclidean)     | 0.91        | 0.90        | 0.91     |  1            |
 
 
 Above table is symmetric matrix, here we see that most of the pair clusters have strong agreement between them and we can see that K-Medoids with Dice and Jaccard distance have strongest agreement between them (we have seen in the medoids sections that both of them divided the same observations into 2 clusters).
