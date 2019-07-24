@@ -71,11 +71,15 @@ Here we see that K-Means with 2 cluster has best average silhouette value compar
 **Adjusted Rand Index:**
 
 Adjusted Rand Index is a number between 0 and 1 and is used to compare agreement between two clustering solutions. Below table shows that adjusted Rand Index between pair of clustering solutions for k = 2. Here K-medoids are represented as KD and K-means as KM.
-	KD(Jaccard)	KD(Hamming)	KD(Dice)	KM(Euclidean)
-KD(Jaccard)	1			
-KD(Hamming)	0.91	1		
-KD(Dice)	1	0.91	1
-KM(Euclidean)	0.91	0.90	0.91	1
+
+|                   | KD(Jaccard) | KD(Hamming) | KD(Dice) | KM(Euclidean) |
+|:------------------|:-----------:|------------:|:--------:|--------------:|
+| KD(Jaccard)       | 1           |             |          |               |
+| KD(Hamming)       | 0.91        | 1           |          |               |
+| KD(Dice)          | 1           | 0.91        | 1        |               |
+| KM(Euclidean)     | 0.91        | 0.90        | 0.91     | 1             |
+
+
 Above table is symmetric matrix, here we see that most of the pair clusters have strong agreement between them and we can see that K-Medoids with Dice and Jaccard distance have strongest agreement between them (we have seen in the medoids sections that both of them divided the same observations into 2 clusters).
 
 **Conclusion:**
@@ -86,19 +90,16 @@ Misclassification rate by K-Means is 12.3%, K-Medoids with Jaccard distance is 1
 **Plots:**
 
 *Plot-1*
-
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture5.jpg" alt="Picture1">
 
-*Plot-2*
 
+*Plot-2*
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture2.jpg" alt="Picture2">
 
-*Fig-1*
 
+*Plot-3*
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture3.jpg" alt="Picture2">
 
 
-
+*Plot-4*
 <img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture4.jpg" alt="Picture2">
-
-                          *Fig-2*
