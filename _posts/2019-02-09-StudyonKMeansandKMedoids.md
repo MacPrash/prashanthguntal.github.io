@@ -11,7 +11,7 @@ mathjax: "true"
 
 **Introduction:**
 
-This report is providing the details analysis of two of the clustering solutions, namely K-means and K-Medoids. Here we are using the 1984 US Congress voting dataset available in mlbench package for understanding on how these two clustering solutions work. US Congress voting dataset has 435 observations and 17 different variables. First variable in this dataset contains the class information which provides the details about to which class each of the observation belongs to or voted. So, there are totally 2 different classes/parties to which each observation/person has chosen one among two available parties or classes. There are total of 435 observations and there is some pattern which is followed by remaining 16 variables in choosing the class/party to which each observation has voted. Of the available 435 observations we had 392 observations with missing values/NA either in one or more variables. So, I’m starting my analysis report by performing data preprocessing and then perform clustering on the processed data using various methods available for both clustering and perform comparison study between clustering solutions using available performance measurements and use silhouette values and plots to investigate the cluster stability.
+This report is providing the details analysis of two of the clustering solutions, namely K-means and K-Medoids. Here we are using the 1984 US Congress voting dataset available in *mlbench* package in *R* for understanding on how these two clustering solutions work. US Congress voting dataset has 435 observations and 17 different variables. First variable in this dataset contains the class information which provides the details about to which class each of the observation belongs to or voted. So, there are totally 2 different classes/parties to which each observation/person has chosen one among two available parties or classes. There are total of 435 observations and there is some pattern which is followed by remaining 16 variables in choosing the class/party to which each observation has voted. Of the available 435 observations we had 392 observations with missing values/NA either in one or more variables. So, I’m starting my analysis report by performing data preprocessing and then perform clustering on the processed data using various methods available for both clustering and perform comparison study between clustering solutions using available performance measurements and use silhouette values and plots to investigate the cluster stability.
 
 **Description:**   
 
@@ -39,27 +39,32 @@ From the above 3 different distance methods we see that Dice method has less clu
 
 Silhouette tell us how well the clustering was done, Silhouette close to 1 indicates that the data was clustered well else if Silhouette value close to -1 indicates that data/observation would be more appropriate to assign to another cluster. Silhouette value equal to 0 indicates data/observation lies on the boundary of 2 clusters.
 
-Jaccard Distance 	Cluster 1 	Cluster 2 	Cluster 3 	Cluster 4	Average
-K = 2 	0.28	0.28			0.28
-K = 3 	0.28	0.02	0.25		0.2
-K = 4 	0.05	0.01	0.25	0.18	0.12
+| Jaccard Distance | Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Average |
+|:-----------------|:---------:|----------:|:---------:|----------:|:--------|
+| K = 2            | 0.28      | 0.28      |           |           | 0.28    |
+| K = 3            | 0.28      | 0.02      | 0.25      |           | 0.2     |
+| K = 4            | 0.05      | 0.01      | 0.25      | 0.18      | 0.12    |
 
 Here we see that when K = 4 there are more negative silhouette value for observations in cluster 2, similarly when K = 3 we see that there are more negative silhouette values for observations in cluster 2. Even when K = 2 we have few negative values for cluster 2(fig 3), but since the average silhouette value for K = 2 is more than others so we can say that compared to K = 3 or 4 we can say that in K = 2 clustering was well performed. Similarly, all the below tables show that average silhouette values are more for K = 2 compared to other values of K.    
 
-Hamming Distance 	Cluster 1 	Cluster 2 	Cluster 3 	Cluster 4	Average
-K = 2 	0.37	0.35			0.36
-K = 3 	0.37	0.23	0.03		0.24
-K = 4 	0.08	0.22	0.04	0.14	0.13
 
-Dice Distance 	Cluster 1 	Cluster 2 	Cluster 3 	Cluster 4	Average
-K = 2 	0.36	0.36			0.36
-K = 3 	0.35	0.02	0.29		0.24
-K = 4 	0.05	0.009	0.29	0.21	0.13
+| Hamming Distance | Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Average |
+|:-----------------|:---------:|----------:|:---------:|----------:|:--------|
+| K = 2            | 0.37      | 0.35      |           |           | 0.36    |
+| K = 3            | 0.37      | 0.23      | 0.03      |           | 0.24    |
+| K = 4            | 0.08      | 0.22      | 0.04      | 0.14      | 0.13    |
 
-Euclidean(K-Means)	Cluster 1 	Cluster 2 	Cluster 3 	Cluster 4	Average
-K = 2 	0.54	0.57			0.55
-K = 3 	0.51	-0.03	0.57		0.41
-K = 4 	0.53	0.40	0.11	0.01	0.32
+| Dice Distance    | Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Average |
+|:-----------------|:---------:|----------:|:---------:|----------:|:--------|
+| K = 2            | 0.36      | 0.36      |           |           | 0.36    |
+| K = 3            | 0.35      | 0.02      | 0.29      |           | 0.24    |
+| K = 4            | 0.05      | 0.009     | 0.29      | 0.21      | 0.13    |
+
+| Euclidean(K-Means)| Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Average |
+|:------------------|:---------:|----------:|:---------:|----------:|:--------|
+| K = 2             | 0.54      | 0.57      |           |           | 0.55    |
+| K = 3             | 0.51      | -0.03     | 0.57      |           | 0.41    |
+| K = 4             | 0.53      | 0.40      | 0.11      | 0.01      | 0.32    |
 
 Here we see that K-Means with 2 cluster has best average silhouette value compared others which means that K-Means has well clustered data compared to others.
 
@@ -77,3 +82,9 @@ Above table is symmetric matrix, here we see that most of the pair clusters have
 
 In the above analysis we have discussed about various concepts, we have discussed about K-Means and K-Medoids and in K-medoids we explored various available distance methods.
 Misclassification rate by K-Means is 12.3%, K-Medoids with Jaccard distance is 12.8%, K-Medoids with Hamming distance is 14.4% and K-Medoids with Dice distance is 12.8%. After various comparison study on number of clusters to choose all the methods influenced us to consider 2 clusters would be better than going with higher number. And we have seen that K-Medoids with Dice had produced clusters with less diameter (observations are tightly packed). Silhouette plot shows that K-Means has highest average silhouette value than others, which tell us that clustering was best in K-Means than other methods. We have also seen that adjusted Rand Index for different distance methods and we can say that K-medoids with Dice and Jaccard produced same results, and we saw that all of the methods have strong agreement between them from adjusted Rand Index. From all these computations I would like conclude stating we would use K-Means to cluster the US Congress Voting dataset as we have less misclassification rate and highest average silhouette value compared to others.
+
+**Plots:**
+
+*Fig-1*
+
+{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/images/Kmeans/Picture1.png" alt="">{% endraw %}
