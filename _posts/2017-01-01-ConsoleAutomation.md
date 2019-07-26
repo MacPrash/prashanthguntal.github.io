@@ -9,7 +9,7 @@ mathjax: "true"
 
 ---
 
-## Continuing the Console automation execution without user interaction after restart of machine using bat programming.
+## Continuing the Console automation execution without user interaction after restart of machine using bat programming..
 
 Basically the major problem with automation scripts or frameworks is that execution of automation scripts halts when a machine restart is needed(most important step for security application after installation) and a user interaction is needed in ordered to continue the execution of automation after restart of test machine from the step where it stopped its execution. Below batch code just stores the current automation script in the memory and executes automatically from the next step once machine restarts.
 
