@@ -14,4 +14,4 @@ I graduated from [PESIT](https://www.pes.edu) with First Class Honours in ***Inf
 While studying to obtain this specialist academic qualification, combined subsequently with two year's of IT experience, I have gained a rich and varied IT, automation, machine learning, data analytics and statistics skillset and I now specialise in data science, analytical and automation artefacts both in data science or analyst and automation sectors.
 
 
-I'm open to job opportunities, with my Curriculum Vitae available at [link](https://www.slideshare.net/PrashanthGuntal1/prashanth-guntal).
+I'm open to job opportunities, with my Curriculum Vitae available at [link](https://www.slideshare.net/PrashanthGuntal1/cv-163035030).
