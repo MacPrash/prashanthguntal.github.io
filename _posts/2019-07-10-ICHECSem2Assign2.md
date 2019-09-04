@@ -29,7 +29,9 @@ Commands to execute programs:
 *Solution*
 
 
-```c
+``````
+
+```
 #include<stdio.h>
 #include<stdlib.h>
 
