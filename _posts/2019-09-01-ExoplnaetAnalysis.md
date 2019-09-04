@@ -11,7 +11,7 @@ mathjax: "true"
 
 Here we are going to analyse and visualise the exoplanet data. Below are the set of questions for which i'm providing solutions. Shiny is also used.
 
-Complete commented code and output is available here : (code)[https://github.com/MacPrash/Exoplanet_Analysis_R_Project/blob/master/_site/index.md]
+Complete commented code and output is available here : [code](https://github.com/MacPrash/Exoplanet_Analysis_R_Project/blob/master/_site/index.md)
 
 Shiny App output is available here : [Shiny](https://macprash.shinyapps.io/shinycode/)
 
