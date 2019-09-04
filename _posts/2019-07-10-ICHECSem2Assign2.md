@@ -29,9 +29,8 @@ Commands to execute programs:
 *Solution*
 
 
-``````
 
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -86,7 +85,7 @@ for (row = 0; row<4;row++)
 printf("\n\n");
 
 
-//float mat[4][4] = {{1,0.5,0.33,0.25},{0.5,0.33,0.25,0.2},{0.33,0.25,0.2,0.16},{0.25,0.2,0.16,0.14}};
+float mat[4][4] = {{1,0.5,0.33,0.25},{0.5,0.33,0.25,0.2},{0.33,0.25,0.2,0.16},{0.25,0.2,0.16,0.14}};
 
 //Creating the structure pointer variables
 
