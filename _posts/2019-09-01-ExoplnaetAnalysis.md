@@ -21,7 +21,7 @@ Shiny App output is available here : https://macprash.shinyapps.io/shinycode/
 
 1) Import the dataset exo_data.csv as a tibble. Columns 1, 16, 17, 18, 25 should be characters. Columns 2, 14 should be factors. Column 15 should be integers. The remaining columns should be doubles.
 
-Note: the file metadata.txt contains useful information about this dataset. Also, you may consult https://en.wikipedia.org/wiki/Exoplanet
+*Note: the file metadata.txt contains useful information about this dataset. Also, you may consult https://en.wikipedia.org/wiki/Exoplanet*
 
 2) Exclude the exoplanets with an unknown method of discovery.
 
