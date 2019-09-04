@@ -9,7 +9,13 @@ mathjax: "true"
 ---
 
 
-Here we are going to analyse and visualise the exoplanet data. Below are the set of questions for which i'm providing solutions. Shiny is also used. 
+Here we are going to analyse and visualise the exoplanet data. Below are the set of questions for which i'm providing solutions. Shiny is also used.
+
+Complete commented code and output is available here :  https://github.com/MacPrash/Exoplanet_Analysis_R_Project/blob/master/_site/index.md
+
+Shiny App output is available here : https://macprash.shinyapps.io/shinycode/
+
+*Note : Question 4 plot just displays the plot but on hover doesn't work on github, please do copy paste and run the code it work perfectly. *
 
 **QUESTIONS:**
 
