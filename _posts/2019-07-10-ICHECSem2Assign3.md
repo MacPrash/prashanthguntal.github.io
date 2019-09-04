@@ -248,7 +248,6 @@ return 0;
 
 ```
 
-``````
 
 *Question 2*
 
