@@ -13,6 +13,9 @@ mathjax: "true"
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ICHEC/Picture1.jpg" alt="Picture1">
 
+*Solution*
+
+
 
 ```c
 
@@ -128,6 +131,11 @@ printf("%d, \n",n); // printing the last number or 1 on the output screen
 *Question 2*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ICHEC/Picture2.jpg" alt="Picture2">
+
+*Solution*
+
+
+
 
 ```c
 
