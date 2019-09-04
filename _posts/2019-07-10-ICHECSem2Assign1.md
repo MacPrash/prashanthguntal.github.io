@@ -11,7 +11,7 @@ mathjax: "true"
 
 *Question 1*
 
-<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/2ndSemAssign1_1.jpg" alt="2ndSemAssign1_1">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ICHEC/2ndSemAssign1_1.jpg" alt="2ndSemAssign1_1">
 
 
 ```c
@@ -127,7 +127,7 @@ printf("%d, \n",n); // printing the last number or 1 on the output screen
 
 *Question 2*
 
-<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/2ndSemAssign1_2.jpg" alt="2ndSemAssign1_2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ICHEC/2ndSemAssign1_2.jpg" alt="2ndSemAssign1_2">
 
 ```c
 
