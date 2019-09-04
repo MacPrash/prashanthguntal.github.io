@@ -11,7 +11,7 @@ mathjax: "true"
 
 *Question 1*
 
-<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/Screenshot 2019-09-04 at 13.31.45.png" alt="Picture1">
+<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/2ndSemAssign1_1.jpg" alt="2ndSemAssign1_1">
 
 
 ```c
@@ -127,7 +127,7 @@ printf("%d, \n",n); // printing the last number or 1 on the output screen
 
 *Question 2*
 
-<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/Screenshot 2019-09-04 at 13.31.53.png" alt="Picture2">
+<img src="{{ site.url }}{{ site.baseurl }}/Users/prash/Code/prashanthguntal.github.io/images/ICHEC/2ndSemAssign1_2.jpg" alt="2ndSemAssign1_2">
 
 ```c
 
@@ -180,7 +180,5 @@ switch(i){ //Switch case to run particular case for particular values of n,a,r
 }
 
 // Output : As "n" and "a" value decreases the ouput values of Sn increases similaryl as "r" values increase the output values of Sn also increases.
-
-
 
 ```
