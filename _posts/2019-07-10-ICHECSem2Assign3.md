@@ -246,7 +246,7 @@ return 0;
 
 }
 
-```
+``````
 
 
 *Question 2*
@@ -1006,4 +1006,4 @@ printf("Time Complexity of Sorting : \n Best Case : Big-O(n^3) \n Average Case :
 
 
 
-```
+``````
