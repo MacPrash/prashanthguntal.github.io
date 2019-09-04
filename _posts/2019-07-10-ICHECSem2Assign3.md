@@ -248,6 +248,8 @@ return 0;
 
 ```
 
+``````
+
 *Question 2*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ICHEC/Picture8.jpg" alt="Picture8">
