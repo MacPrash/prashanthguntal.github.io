@@ -10,6 +10,9 @@ mathjax: "true"
 
 Solution of the below questions is available here : [Code](https://github.com/MacPrash/Multivariate_Analysis_2/blob/master/_site/index.md)
 
+LCA report is available [here]([code](https://github.com/MacPrash/Multivariate_Analysis_2/blob/master/Study%20on%20LCA.pdf)
+) 
+
 *Question 1:*
 
 Load the data set ‘airlinedata.csv’ from Blackboard/Brightspace into R. The data set details the airline
